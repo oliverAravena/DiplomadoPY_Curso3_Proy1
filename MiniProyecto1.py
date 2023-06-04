@@ -20,6 +20,7 @@ my_cursor.execute(sqlsentense)
 
 for x in my_cursor:
 
-    registro = my_cursor.fetchone()
+    reg = my_cursor.fetchone()
 
-    print (registro)
+    print (reg)
+
